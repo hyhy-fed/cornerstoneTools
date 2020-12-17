@@ -43,7 +43,7 @@ export default function calculateLongestAndShortestDiameters(
   }
 
   return {
-    longestDiameter: length.toFixed(1),
-    shortestDiameter: width.toFixed(1),
+    longestDiameter: length.toFixed(2),
+    shortestDiameter: width.toFixed(2),
   };
 }
