@@ -110,8 +110,7 @@ export default class LengthTool extends BaseAnnotationTool {
     }
 
     return (
-      lineSegDistance(element, data.handles.start, data.handles.end, coords) <
-      25
+      lineSegDistance(element, data.handles.start, data.handles.end, coords) < 6
     );
   }
 
